@@ -1,0 +1,62 @@
+html{
+	font-size:16px;
+}
+
+header{
+	height:4rem;
+	background-color:#fff;
+	display:flex;
+	align-items:center;
+}
+
+.container{
+	padding-left:1.5rem;
+}
+
+.school-name{
+	display:flex;
+}
+
+.school-name li:first-child{
+	font-weight:bold;
+}
+
+.desktop-logo{
+	display:flex;
+	align-items:center;
+	flex-grow:1;
+}
+
+.desktop-nav{
+	display:flex;
+	list-style-type:none;
+}
+
+.desktop-nav li{
+	padding-right:1rem;
+}
+
+.desktop-nav li:last-child{
+	padding-right:1.5rem;
+}
+
+.mobile-nav{
+	display:none;
+}
+
+@media only screen and (max-width:470px){
+	.mobile-nav{
+		display:flex;
+		list-style-type:none;
+		justify-content:space-around;
+		width:100%;
+	}
+	
+	.desktop-nav{
+		display:none;
+	}
+	
+	.desktop-logo{
+		display:none;
+	}
+}
