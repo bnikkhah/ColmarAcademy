@@ -11,6 +11,10 @@ header{
 	align-items:center;
 }
 
+span{
+	display:block;
+}
+
 .container{
 	padding-left:1.5rem;
 }
@@ -69,7 +73,6 @@ header{
 }
 
 .banner-content span{
-	display:block;
 	padding:0.5rem 0;
 	background-color:#4a4a4a;
 	text-align:center;
@@ -87,6 +90,67 @@ h1{
 h3{
 	font-size:2rem;
 	color:#4a4a4a;
+}
+
+/* Headlines */
+
+.information-display{
+	display:flex;
+}
+
+.main-headline{
+	display:flex;
+	flex-direction:column;
+	width:60%;
+	padding:2rem 1.5rem 2rem 0;
+}
+
+.main-headline img{
+	padding-bottom:2rem;
+}
+
+.main-headline h1{
+	padding-bottom:1.5rem;
+}
+
+.side-headlines{
+	width:100%;
+	border-left:1px solid #e0e2e2;
+	display:flex;
+	flex-direction:column;
+	padding:1rem 0;
+}
+
+.side-headline{
+	display:flex;
+	align-items:center;
+}
+
+.side-headlines .side-headline:first-child{
+	border-bottom:1px solid #e0e2e2;
+}
+
+.side-headline-content h3, p{
+	padding-bottom:0.5rem;
+}
+
+.side-headline img{
+	width:35%;
+	padding:1rem;
+}
+
+.side-headline.guest{
+	background-color:#d8d8d8;
+}
+
+a{
+	color:#4a90e2;
+}
+
+@media only screen and (min-width:470px){
+	.side-headline img:nth-child(n+2){
+		display:none;
+	}
 }
 
 @media only screen and (max-width:470px){
@@ -140,9 +204,59 @@ h3{
 		font-size:2rem;
 		color:#4a4a4a;
 		padding-bottom:1.5rem;
+		font-weight:bold;
 	}
 	
 	.banner-content span{
 		background-color:#9b9b9b;
+	}
+	
+	/* Headlines */
+	
+	.main-headline{
+		display:none;
+	}
+	
+	.side-headlines{
+		justify-content:center;
+	}
+	
+	.container{
+		padding:0;
+	}
+	
+	.side-headlines{
+		flex-direction:column;
+		border:none;
+		padding:1rem 1rem 2rem 1rem;
+	}
+	
+	.side-headline-content{
+		padding-bottom:1rem;
+		padding-left:1rem;
+	}
+	
+	.side-headline.guest{
+		background-color:transparent;
+	}
+	
+	.side-headline{
+		flex-direction:column;
+		align-items:flex-start;
+		padding-bottom:1rem;
+	}
+	
+	.side-headlines .side-headline:first-child{
+		border:none;
+	}
+	
+	.side-headline img:first-child{
+		display:none;
+	}
+	
+	.side-headline img{
+		width:100%;
+		padding:0;
+		padding-bottom:1rem;
 	}
 }
