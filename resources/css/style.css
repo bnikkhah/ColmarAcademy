@@ -2,6 +2,8 @@ html{
 	font-size:16px;
 }
 
+/* Header */
+
 header{
 	height:4rem;
 	background-color:#fff;
@@ -44,7 +46,52 @@ header{
 	display:none;
 }
 
+/* Banner */
+
+.banner{
+	background-color:#d8d8d8;
+	padding:2rem 0 2rem 1.5rem;
+	display:flex;
+	align-items:center;
+}
+
+.banner img{
+	width:60%;
+}
+
+.banner-content{
+	display:flex;
+	flex-direction:column;
+	padding-left:2.5rem;
+	height:20rem;
+	width:25%;
+	justify-content:space-between;
+}
+
+.banner-content span{
+	display:block;
+	padding:0.5rem 0;
+	background-color:#4a4a4a;
+	text-align:center;
+	color:#fff;
+	width:100%;
+	font-weight:bold;
+}
+
+h1{
+	font-weight:bold;
+	font-size:3.5rem;
+	color:#4a4a4a;
+}
+
+h3{
+	font-size:2rem;
+	color:#4a4a4a;
+}
+
 @media only screen and (max-width:470px){
+	/* Header */
+	
 	.mobile-nav{
 		display:flex;
 		list-style-type:none;
@@ -58,5 +105,44 @@ header{
 	
 	.desktop-logo{
 		display:none;
+	}
+	
+	/* Banner */
+	
+	.mobile-filler{
+		height:11.25rem;
+		background-color:#9b9b9b;
+	}
+	
+	.banner{
+		padding:0;
+	}
+	
+	.banner img{
+		display:none;
+	}
+	
+	.banner-content{
+		width:100%;
+		padding:2rem 1rem;
+		justify-content:flex-start;
+		height:auto;
+	}
+	
+	h1{
+		font-weight:bold;
+		font-size:2.5rem;
+		color:#4a4a4a;
+		padding-bottom:2rem;
+	}
+
+	h3{
+		font-size:2rem;
+		color:#4a4a4a;
+		padding-bottom:1.5rem;
+	}
+	
+	.banner-content span{
+		background-color:#9b9b9b;
 	}
 }
