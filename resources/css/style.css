@@ -215,6 +215,26 @@ video{
 	border:0;
 }
 
+/* Footer */
+
+footer{
+	background-color:#f5f4f5;
+	height:4rem;
+	border-top:1px solid #e0e2e2;
+}
+
+footer ul{
+	display:flex;
+}
+
+footer ul li:first-child{
+	flex-grow:1;
+}
+
+footer ul li:nth-child(n+2){
+	padding-right:1rem;
+}
+
 @media only screen and (max-width:470px){
 	/* Header */
 	
@@ -366,6 +386,19 @@ video{
 	}
 	
 	.main-headline-content.thesis{
+		display:none;
+	}
+	
+	/* Footer */
+	
+	footer{
+		background-color:#f3f5f5;
+		height:0;
+		border-top:0;
+		padding:1rem 0 1rem 1.5rem;
+	}
+	
+	footer ul li:nth-child(n+2){
 		display:none;
 	}
 }
