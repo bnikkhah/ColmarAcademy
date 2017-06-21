@@ -197,7 +197,11 @@ a{
 
 .course-content{
 	background-color:white;
-	padding:1rem 0 1.5rem 1rem;
+	padding:1rem 1rem 1.5rem 1rem;
+}
+
+.course-content li:nth-child(n+2){
+	color:#767676;
 }
 
 .courses-spacing{
@@ -378,7 +382,7 @@ footer ul li:nth-child(n+2){
 	}
 	
 	.course-mobile span{
-		padding:1rem 0 1rem 1rem;
+		padding:1rem 1rem;
 		background-color:#d8d8d8;
 		font-weight:bold;
 	}
