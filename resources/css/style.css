@@ -225,6 +225,10 @@ a{
 	text-align:center;
 }
 
+.main-headline-content.thesis li:last-child{
+	color:#767676;
+}
+
 .thesis-display{
 	background-color:#f5f4f5;
 }
@@ -242,12 +246,17 @@ video{
 	border:0;
 }
 
+.side-headlines.thesis li:last-child{
+	color:#767676;
+}
+
 /* Footer */
 
 footer{
 	background-color:#f5f4f5;
 	height:4rem;
 	border-top:1px solid #e0e2e2;
+	color:#767676;
 }
 
 footer ul{
@@ -420,6 +429,7 @@ footer ul li:nth-child(n+2){
 		height:0;
 		border-top:0;
 		padding:1rem 0 1rem 1.5rem;
+		color:#4a4a4a;
 	}
 	
 	footer ul li:nth-child(n+2){
