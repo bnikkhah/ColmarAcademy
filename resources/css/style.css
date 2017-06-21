@@ -377,18 +377,15 @@ footer ul li:nth-child(n+2){
 		padding:0 1rem 1.5rem 1rem;
 	}
 	
-	.courses-display{
-		display:none;
-	}
-	
-	.course-mobile span{
+	.courses-display-mobile li{
 		padding:1rem 1rem;
 		background-color:#d8d8d8;
 		font-weight:bold;
+		margin-bottom:0.5rem;
 	}
 	
-	.course-mobile{
-		padding-bottom:0.5rem;
+	.courses-display{
+		display:none;
 	}
 	
 	.title.learn{
