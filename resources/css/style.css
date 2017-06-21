@@ -91,6 +91,10 @@ h3{
 
 /* Headlines */
 
+.active{
+	background-color:#d8d8d8;
+}
+
 .information-display{
 	display:flex;
 	background-color:#f5f4f5;
@@ -135,10 +139,6 @@ h3{
 .side-headline img{
 	width:35%;
 	padding-right:1rem;
-}
-
-.side-headline.guest{
-	background-color:#d8d8d8;
 }
 
 a{
@@ -206,10 +206,6 @@ a{
 video{
 	height:25rem;
 	padding-bottom:1.5rem;
-}
-
-.side-headline.fisma{
-	background-color:#d8d8d8;
 }
 
 .side-headlines.thesis{
@@ -352,7 +348,9 @@ footer ul li:nth-child(n+2){
 	/* Courses */
 	
 	.courses-display-mobile{
-		border:1px solid #e9eaea;
+		border-bottom:1px solid #e9eaea;
+		border-left:1px solid #e9eaea;
+		border-right:1px solid #e9eaea;
 		background-color:#f5f4f5;
 		padding:0 1rem 1.5rem 1rem;
 	}
@@ -369,9 +367,12 @@ footer ul li:nth-child(n+2){
 	}
 	
 	.title.learn{
-	padding:2rem 0 1rem 0;
-	background-color:#f5f4f5;
-	text-align:center;
+		padding:2rem 0 1rem 0;
+		background-color:#f5f4f5;
+		text-align:center;
+		border-top:1px solid #e9eaea;
+		border-left:1px solid #e9eaea;
+		border-right:1px solid #e9eaea;
 	}
 	
 	/* Thesis */
