@@ -9,10 +9,7 @@ body{
 /* Header */
 
 header{
-	height:4rem;
 	background-color:#fff;
-	display:flex;
-	align-items:center;
 }
 
 span{
@@ -23,7 +20,27 @@ span{
 	padding-left:1.5rem;
 }
 
-.school-name{
+.desktop-nav ul{
+	height:4rem;
+	display:flex;
+	align-items:center;
+}
+
+.desktop-nav ul li:nth-child(3){
+	flex-grow:1;
+	color:#9b9b9b;
+}
+
+.desktop-nav ul li:nth-child(2){
+	font-weight:bold;
+}
+
+.desktop-nav ul li:nth-child(n+3){
+	padding-right:1rem;
+	color:#565656;
+}
+
+/*.school-name{
 	display:flex;
 }
 
@@ -48,7 +65,7 @@ span{
 
 .desktop-nav li:last-child{
 	padding-right:1.5rem;
-}
+}*/
 
 .mobile-nav{
 	display:none;
@@ -67,13 +84,22 @@ span{
 	width:60%;
 }
 
-.banner-content{
+/*.banner-content{
 	display:flex;
 	flex-direction:column;
 	padding-left:2.5rem;
 	height:20rem;
 	width:25%;
 	justify-content:space-between;
+}*/
+
+.banner-content{
+	padding-left:2.5rem;
+	width:25%;
+	height:25rem;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
 }
 
 .banner-content span{
