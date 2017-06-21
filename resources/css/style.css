@@ -4,6 +4,7 @@ html{
 
 body{
 	line-height:1.5;
+	font-family:Helvetica;
 }
 
 /* Header */
@@ -41,33 +42,6 @@ span{
 	padding-right:0;
 }
 
-/*.school-name{
-	display:flex;
-}
-
-.school-name li:first-child{
-	font-weight:bold;
-}
-
-.desktop-logo{
-	display:flex;
-	align-items:center;
-	flex-grow:1;
-}
-
-.desktop-nav{
-	display:flex;
-	list-style-type:none;
-}
-
-.desktop-nav li{
-	padding-right:1rem;
-}
-
-.desktop-nav li:last-child{
-	padding-right:1.5rem;
-}*/
-
 .mobile-nav{
 	display:none;
 }
@@ -84,15 +58,6 @@ span{
 .banner img{
 	width:60%;
 }
-
-/*.banner-content{
-	display:flex;
-	flex-direction:column;
-	padding-left:2.5rem;
-	height:20rem;
-	width:25%;
-	justify-content:space-between;
-}*/
 
 .banner-content{
 	padding-left:2.5rem;
@@ -262,6 +227,7 @@ footer{
 	height:4rem;
 	border-top:1px solid #e0e2e2;
 	color:#767676;
+	padding-left:1.5rem;
 }
 
 footer ul{
