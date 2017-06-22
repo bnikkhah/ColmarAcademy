@@ -42,10 +42,6 @@ span{
 	padding-right:0;
 }
 
-.mobile-nav{
-	display:none;
-}
-
 /* Banner */
 
 .banner{
@@ -186,6 +182,10 @@ a{
 	.courses-display-mobile{
 		display:none;
 	}
+	
+	.mobile-nav{
+		display:none;
+	}
 }
 
 /* Thesis */
@@ -241,11 +241,11 @@ footer ul li:nth-child(n+2){
 @media only screen and (max-width:470px){
 	/* Header */
 	
-	.mobile-nav{
+	.mobile-nav ul{
 		display:flex;
-		list-style-type:none;
 		justify-content:space-around;
-		width:100%;
+		align-items:center;
+		height:4rem;
 	}
 	
 	.desktop-nav{
