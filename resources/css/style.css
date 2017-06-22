@@ -33,9 +33,18 @@ span{
 	font-weight:bold;
 }
 
-.desktop-nav ul li:nth-child(n+3){
+.desktop-nav ul li:nth-child(n+4){
 	padding-right:1rem;
 	color:#565656;
+	transition:color 200ms ease, font-size 200ms ease;
+}
+
+.desktop-nav ul li:hover:nth-child(n+4){
+	color:#d8d8d8;
+}
+
+.desktop-nav ul li:active:nth-child(n+4){
+	font-size:0.9rem;
 }
 
 .desktop-nav ul li:last-child{
@@ -71,6 +80,15 @@ span{
 	color:#fff;
 	width:100%;
 	font-weight:bold;
+	transition:font-size 500ms ease;
+}
+
+.banner-content span:hover{
+	font-size:1.5rem;
+}
+
+.banner-content span:active{
+	font-size:1.0rem;
 }
 
 h1{
@@ -122,6 +140,11 @@ h3{
 	display:flex;
 	align-items:center;
 	padding:1rem;
+	transition:background-color 200ms ease;
+}
+
+.side-headline:hover{
+	background-color:#d8d8d8;
 }
 
 .side-headlines .side-headline:first-child{
@@ -159,6 +182,12 @@ a{
 
 .course{
 	padding:1rem 1rem;
+	border:1px solid #eaebec;
+	transition:border 400ms ease-out;
+}
+
+.course:hover{
+	border:1px solid #a2a2a2;
 }
 
 .course-content{
@@ -203,7 +232,7 @@ a{
 	background-color:#f5f4f5;
 }
 
-video{
+.main-headline.thesis video{
 	height:25rem;
 	padding-bottom:1.5rem;
 }
@@ -236,6 +265,16 @@ footer ul li:first-child{
 
 footer ul li:nth-child(n+2){
 	padding-right:1rem;
+	transition:color 200ms ease, font-size 200ms ease;;
+}
+
+footer ul li:hover:nth-child(n+2){
+	padding-right:1rem;
+	color:#d8d8d8;
+}
+
+footer ul li:active:nth-child(n+2){
+	font-size:0.9rem;
 }
 
 @media only screen and (max-width:470px){
