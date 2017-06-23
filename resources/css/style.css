@@ -257,7 +257,7 @@ footer ul li:first-child{
 
 footer ul li:nth-child(n+2){
 	padding-right:1rem;
-	transition:color 200ms ease, font-size 200ms ease;;
+	transition:color 200ms ease, font-size 200ms ease;
 }
 
 footer ul li:hover:nth-child(n+2){
@@ -276,6 +276,20 @@ footer ul li:active:nth-child(n+2){
 		justify-content:space-around;
 		align-items:center;
 		height:4rem;
+	}
+	
+	.mobile-nav ul li img{
+		transition:width 300ms ease, height 300ms ease;
+	}
+	
+	.mobile-nav ul li img:hover{
+		width:3rem;
+		height:3rem;
+	}
+	
+	.mobile-nav ul li img:active{
+		width:1.5rem;
+		height:1.5rem;
 	}
 	
 	.desktop-nav{
