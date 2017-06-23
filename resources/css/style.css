@@ -397,6 +397,7 @@ footer ul li:active:nth-child(n+2){
 		border-right:1px solid #e9eaea;
 		background-color:#f5f4f5;
 		padding:0 1rem 1.5rem 1rem;
+		color:#4a4a4a;
 	}
 	
 	.courses-display-mobile li{
@@ -404,6 +405,16 @@ footer ul li:active:nth-child(n+2){
 		background-color:#d8d8d8;
 		font-weight:bold;
 		margin-bottom:0.5rem;
+		transition:background-color 200ms ease, font-size 200ms ease;
+	}
+	
+	.courses-display-mobile li:hover{
+		background-color:#9b9b9b;
+		font-size:1.1rem;
+	}
+	
+	.courses-display-mobile li:active{
+		font-size:0.9rem;
 	}
 	
 	.courses-display{
